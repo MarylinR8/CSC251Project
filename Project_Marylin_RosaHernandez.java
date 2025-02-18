@@ -41,6 +41,7 @@ public class Project_Marylin_RosaHernandez
       //Get all necessary information from Policy class
       
       Policy person1 = new Policy();
+      
       double bmi = person1.setBmi(height, weight);
       
       System.out.println("Policy Number: " + person1.getPolicyNumber());
